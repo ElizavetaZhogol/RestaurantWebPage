@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: beige;
+    padding: 10%;
+}
+
+main {
+ padding: 5%;
+}
+
+header nav ul { 
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none; 
+    background-color: aqua;
+    padding: 0%;
+}
+
+header nav ul li {
+    background-color: blue;
+    margin: 5%;
+}
+
+header nav ul .logo {
+    margin-right: auto;
+    background-color: black;
+}
+
+header nav ul .cart {
+    margin-left: auto;
+    background-color: black;
+}
+
+header section {
+    text-align: center;
+}
+
+main .aboutRestaurant {
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 5%;
+}
+
+main .aboutTextandPhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .restaurantDescription {
+    background-color: brown;
+    width: 800px;
+    height: 600px;
+    align-self: center;
+    text-align: center;
+}
+
+main .seeMenu {
+    width: 200px;
+    height: 50px;
+    border: solid 1;
+    border-radius: 10px;
+    background-color: crimson;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main .workers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+main .worker {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: beige;
+    border-style: solid;
+    border-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;   
+}
+
+footer section nav ul {
+    list-style-type: none; 
+    margin-bottom: 20%;
+}
