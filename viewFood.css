@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+main .displayFood {
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px darkgray;
+}
+
+.displayFood h2 {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    background-color: white;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.deleteTrash, .editIcon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.deleteTrash:hover, .editIcon:hover {
+    color: #337ab7;
+}
+
+@media (max-width: 700px) {
+    table {
+        margin: 0 auto;
+      }
+      tr {
+        display: block;
+        margin-bottom: 20px;
+      }
+      th, td {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+      }
+      th {
+        display: none;
+      }
+      table tbody td:nth-child(1) {
+       background-color: darkgreen;
+      }
+}
