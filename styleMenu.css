@@ -416,6 +416,21 @@ main section ul .card {
     padding-left: 15px;
 }
 
+main section ul .card1 {
+    background: url("ImagesForRestaurant/salad.webp") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+main section ul .card2 {
+    background: url("ImagesForRestaurant/pizza.webp") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+main section ul .card3 {
+    background: url("ImagesForRestaurant/pasta.webp") no-repeat 50% 50%;
+    background-size: cover;
+}
+
 main section ul .card i {
     position: relative;
     top: 5px;
